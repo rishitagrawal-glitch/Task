@@ -16,34 +16,6 @@ NumPy: numerical operations
 Matplotlib: plotting
 Seaborn: statistical visualizations
 scikit-learn: dataset loading, models and evaluation metrics
-Setup Instructions
-1. Clone the repository
-bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-2. (Optional) Create a virtual environment
-bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-3. Install dependencies
-bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-
-Or, if you have a requirements.txt:
-
-bash
-pip install -r requirements.txt
-4. Run the project
-bash
-python iris_ml_tasks.py
-
-The script prints the results for all three tasks in the terminal and saves the generated charts as PNG files in the project folder.
-
 Project Structure
 .
 ├── iris_ml_tasks.py        # Main script (Tasks 1, 2 and 3)
